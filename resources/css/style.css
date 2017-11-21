@@ -1,0 +1,41 @@
+html {
+  font-family: "Monda", sans-serif;
+  font-size: 16px;
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    "head head"
+    "content content"
+    "foot foot";
+  grid-template-rows: 10rem 20rem 10rem;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "head"
+    "content"
+    "foot";
+}
+
+header {
+  grid-area: "head";
+
+  color: blue;
+  background: yellow;
+  border: 1rem solid red;
+}
+
+.content {
+  grid-area: "content";
+  color: blue;
+  background: yellow;
+  border: 1rem solid red;
+}
+
+footer {
+  grid-area: "foot";
+  color: blue;
+  background: yellow;
+  border: 1rem solid red;
+}
