@@ -21,21 +21,24 @@ html {
 header {
   grid-area: "head";
 
-  color: blue;
-  background: yellow;
-  border: 1rem solid red;
+  color: #472E74;
+  background: #AEA0C1;
+  border: 2px solid #2B0E4F;
+  border-radius: 8;
 }
 
 .content {
   grid-area: "content";
-  color: blue;
-  background: yellow;
-  border: 1rem solid red;
+  color: #472E74;
+  background: #AEA0C1;
+  border: 2px solid #2B0E4F;
+  border-radius: 8;
 }
 
 footer {
   grid-area: "foot";
-  color: blue;
-  background: yellow;
-  border: 1rem solid red;
+  color: #472E74;
+  background: #AEA0C1;
+  border: 2px solid #2B0E4F;
+  border-radius: 8;
 }
